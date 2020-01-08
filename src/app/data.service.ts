@@ -7,6 +7,6 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
   getdata() {
-    return this.http.get('http://codeforces.com/api/user.info?handles=jayakrishna_g');
+    return this.http.get('https://codeforces.com/api/user.info?handles=jayakrishna_g');
   }
 }
